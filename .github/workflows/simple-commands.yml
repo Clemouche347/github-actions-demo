@@ -2,7 +2,7 @@ name: Simple Commands
 on: [push]
 
 jobs:
-  builds:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Echo Hello
@@ -13,4 +13,3 @@ jobs:
 
     -name: List Files
     run: ls -la
-    
